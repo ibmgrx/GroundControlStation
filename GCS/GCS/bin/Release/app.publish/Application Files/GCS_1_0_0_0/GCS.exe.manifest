@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GCS.exe" version="1.0.0.0" publicKeyToken="0de68c1e0447cdb0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GCS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GCS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GCS.exe" size="288256">
+      <assemblyIdentity name="GCS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>atVpJl9AWXCgEBmNGBIjCcVayqDz0NRXbKNGYNss0dU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GMap.NET.Core.dll" size="2925056">
+      <assemblyIdentity name="GMap.NET.Core" version="1.7.5.0" publicKeyToken="B85B9027B614AFEF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DAXzE7ThGD+Ggr7GJO8+hpCSLmFHUBxY4sPmspd4qUw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GMap.NET.WindowsForms.dll" size="152576">
+      <assemblyIdentity name="GMap.NET.WindowsForms" version="1.7.5.0" publicKeyToken="B85B9027B614AFEF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rXtkYYbAxIp1luatcN+vfla32KJuNt8l16qqCjYrZQg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GCS.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PENTIUM-3\BaretOren" issuerKeyHash="3c1538618721a2771c706720ea4c40de1f583828" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xxoHjZ8GZro/nWQf7WCqj7BI9jU8PCSC2LAPyQQ3pRc=</DigestValue></Reference></SignedInfo><SignatureValue>eGmuIR62VD8rUHn1AQHYU3oXnfrsaOFUshOykwbAX9yqNd9S4RZFvcf5f+bmLGjSKJl+Px++p6kA1OOHq3MppFTtB2UzalbpHhva6BT/1oGAOZoHG4njS+zg5cmhXY96ENP7Fn0GO9hc1eyBVuaBXKUYk4GWpyqqixhJl9RHI3Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>omiSHoWhrSdEnR9b/F+bleFY93pT5KEOyEUp9mc2oHgCD1eflTQ0pPmiBIhQCiOFCT8Fi0uTpU5xbHJ7p+8HcurO+DZ/BwBMGouHst74pxpa5rlj9DN1UTY4bEHgz8TQJmh2Gy7y32f577FmRebQsjovy5soMXhOfTqNtGbxowk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="17a53704c90fb0d882243c3c35f648b08faa60ed1f649d3fba66069f8d071ac7" Description="" Url=""><as:assemblyIdentity name="GCS.exe" version="1.0.0.0" publicKeyToken="0de68c1e0447cdb0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PENTIUM-3\BaretOren</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KJ+uo3rgPN9ZvZn2qU52TLPrlDx+iOkVXd9hVLkdpiE=</DigestValue></Reference></SignedInfo><SignatureValue>oTgIYYwVSn17RAtjU3S7Ple3tL9KQ1/Rj6KFuRFH0KDs6clykGRNtZRr1jaI74T36BByBCVhWUyMRBFZvm8g6SJ/1g6yCGgHF6UJLQ9w0Cs3zPw4ESEUfbKkq+bJXKSvW16x2SXCqg2TLxKkN/6n8CBxIb5zo6fWCdHn/Ag2+k4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>omiSHoWhrSdEnR9b/F+bleFY93pT5KEOyEUp9mc2oHgCD1eflTQ0pPmiBIhQCiOFCT8Fi0uTpU5xbHJ7p+8HcurO+DZ/BwBMGouHst74pxpa5rlj9DN1UTY4bEHgz8TQJmh2Gy7y32f577FmRebQsjovy5soMXhOfTqNtGbxowk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQfchFGHiLG5pNoeah3PbWvjANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAUABFAE4AVABJAFUATQAtADMAXABCAGEAcgBlAHQATwByAGUAbjAeFw0yMDA4MjYxNDM0MTZaFw0yMTA4MjYyMDM0MTZaMDExLzAtBgNVBAMeJgBQAEUATgBUAEkAVQBNAC0AMwBcAEIAYQByAGUAdABPAHIAZQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiaJIehaGtJ0SdH1v8X5uV4Vj3elPkoQ7IRSn2ZzageAIPV5+VNDSk+aIEiFAKI4UJPwWLS5OlTnFscnun7wdy6s74Nn8HAEwai4ey3vinGlrmuWP0M3VRNjhsQeDPxNAmaHYbLvLfZ/nvsWZF5tCyOi/LmygxeE59Oo20ZvGjCQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJa8kmuaANjZ8RXrM12Eo2xxBJqHW/fR/3urL5rel9kpsRTomgnU/eQhIMsM5M+VS9sbwzNl41LDaAY6CG/ghCXBznJazPwmrOh1zhxZMSf7f7DPlWJOkNxWX//696Hc8Ie/SScxW3TcH/n/oVOwHlKmtkbnolPsr2yeddEWW0F/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

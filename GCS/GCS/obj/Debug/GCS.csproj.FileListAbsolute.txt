@@ -1,0 +1,16 @@
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GCS.exe.config
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GCS.exe
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GCS.pdb
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.csprojResolveAssemblyReference.cache
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.Form1.resources
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.Properties.Resources.resources
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.csproj.GenerateResource.Cache
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.exe
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.pdb
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GMap.NET.Core.dll
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GMap.NET.WindowsForms.dll
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GMap.NET.WindowsForms.xml
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GCS.exe.manifest
+F:\BISMILLAH TA\GCS\GCS\GCS\bin\Debug\GCS.application
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.exe.manifest
+F:\BISMILLAH TA\GCS\GCS\GCS\obj\Debug\GCS.application
